@@ -9,7 +9,7 @@ int main(int argc, char* argv[]){
 
 	
 	//Change input reading to fit needs and everything else should work
-	
+	//Eventually I wlll make this function work for all data types, not just ints.
 	int arraySize;
 	scanf("%d", &arraySize);
 	int *array = malloc(sizeof(int) * arraySize);
